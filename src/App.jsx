@@ -11,7 +11,7 @@ const data = [
 export function Footer(){
   return(
 <div className='text-bg-primary text-center fs-5'>
-  By Mhd Yaseen </div>
+  By Mohammed Yaseen  </div>
   )
 }
 

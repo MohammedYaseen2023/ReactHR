@@ -8,6 +8,13 @@ const data = [
    { id: 2, value: 20, label: 'المتاخرين' },
 ];
 
+export function Footer(){
+  return(
+<div className='text-bg-primary text-center fs-5'>
+  By Mhd Yaseen </div>
+  )
+}
+
 export  function PieActiveArc() {
   return (
     <PieChart
@@ -23,7 +30,7 @@ export  function PieActiveArc() {
           fill: 'gray',
         },
       }}
-      height={200}
+      height={300}
     />
   );
 }
@@ -38,6 +45,8 @@ function App() {
       <div className='py-3'>
       <PieActiveArc/>
       </div>
+
+      <Footer/>
     </div>
   )
 }
